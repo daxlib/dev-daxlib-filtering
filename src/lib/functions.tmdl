@@ -21,7 +21,7 @@ function 'DaxLib.Filtering.FirstDateWithTransactions' = ```
     RETURN TREATAS ( { FirstDateWithData }, dateColumn )
     ```
     annotation DAXLIB_PackageId = DaxLib.Filtering
-    annotation DAXLIB_PackageVersion = 0.1.1-beta
+    annotation DAXLIB_PackageVersion = 0.1.2
 
 /// Return the value of the expression evaluated in the first date where there are transactions
 /// @param {expr} valueExpr - Expression to evaluate in the first transaction by dateTransaction
@@ -45,7 +45,7 @@ function 'DaxLib.Filtering.FirstValue' = ```
     )
     ```
     annotation DAXLIB_PackageId = DaxLib.Filtering
-    annotation DAXLIB_PackageVersion = 0.1.1-beta
+    annotation DAXLIB_PackageVersion = 0.1.2
 
 /// Retrieve the last date in dateColumnn where there is a transaction in dateTransaction
 /// it can replace FIRSTNONBLANKVALUE when we can assume that the expression is not blank 
@@ -70,7 +70,7 @@ function 'DaxLib.Filtering.LastDateWithTransactions' = ```
     RETURN TREATAS ( { LastDateWithData }, dateColumn )
     ```
     annotation DAXLIB_PackageId = DaxLib.Filtering
-    annotation DAXLIB_PackageVersion = 0.1.1-beta
+    annotation DAXLIB_PackageVersion = 0.1.2
     
 /// Return the value of the expression evaluated in the last date where there are transactions
 /// @param {expr} valueExpr - Expression to evaluate in the last transaction by dateTransaction
@@ -94,7 +94,7 @@ function 'DaxLib.Filtering.LastValue' = ```
     )
     ```
     annotation DAXLIB_PackageId = DaxLib.Filtering
-    annotation DAXLIB_PackageVersion = 0.1.1-beta
+    annotation DAXLIB_PackageVersion = 0.1.2
 
 
 /// Search a value in a lookupDate that has min/max columns and a target column containing the value to return
@@ -130,4 +130,4 @@ function 'DaxLib.Filtering.RangeLookup' = ```
         )
         ```
     annotation DAXLIB_PackageId = DaxLib.Filtering
-    annotation DAXLIB_PackageVersion = 0.1.1-beta
+    annotation DAXLIB_PackageVersion = 0.1.2
