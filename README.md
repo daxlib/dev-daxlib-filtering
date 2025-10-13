@@ -1,20 +1,10 @@
-> [!IMPORTANT]
-> This is a template repository for developing a daxlib package. After creating your package repository, make sure to complete the following steps:
-> - [ ] Search and replace `[PACKAGE_ID]` with your package ID (e.g., `DaxLib.MyAwesomeLib`)
-> - [ ] Search and replace `[PACKAGE_REPO_NAME]` with your repository name (e.g., `dev-daxlib-myawesomelib`)
-> - [ ] Configure the `manifest.daxlib` file
-> - [ ] Configure the `functions.tmdl` file
-> - [ ] (Optional) Configure the `.github/ISSUE_TEMPLATE/config.yml` file
+# `DaxLib.Filtering` Development Repository
 
----
-
-# `[PACKAGE_ID]` Development Repository
-
-This is the official development repository for the [**[PACKAGE_ID]**](https://daxlib.org/package/[PACKAGE_ID]/) library.
+This is the official development repository for the [**DaxLib.Filtering**](https://daxlib.org/package/DaxLib.Filtering/) library.
 
 ## About
 
-The library is officially distributed via [daxlib.org](https://daxlib.org/package/[PACKAGE_ID]/), which is the recommended and supported way to consume it.
+The library is officially distributed via [daxlib.org](https://daxlib.org/package/DaxLib.Filtering/), which is the recommended and supported way to consume it.
 
 This repository is where we:
 
@@ -35,18 +25,18 @@ New versions follow this workflow:
 
 ## How to Contribute
 
-- Fork this repository: [https://github.com/daxlib/[PACKAGE_ID]/fork](https://github.com/daxlib/[PACKAGE_REPO_NAME]/fork)
+- Fork this repository: [https://github.com/daxlib/dev-daxlib-filtering/fork](https://github.com/daxlib/dev-daxlib-filtering/fork)
 - Create a feature branch for your changes
 - Submit a Pull Request with a clear description of your changes
 
 ## How to report Issues
 
-- Open an issue or bug using GitHub Issues: https://github.com/daxlib/[PACKAGE_REPO_NAME]/issues/new
+- Open an issue or bug using GitHub Issues: https://github.com/daxlib/dev-daxlib-filtering/issues/new
 
 ## How to stay updated on new releases
 
 To receive notifications for every new release, you can use the GitHub **Subscribe** feature:
 
-1. Go to the main page of the repository: [https://github.com/daxlib/[PACKAGE_REPO_NAME]](https://github.com/daxlib/[PACKAGE_REPO_NAME])
+1. Go to the main page of the repository: [https://github.com/daxlib/dev-daxlib-filtering](https://github.com/daxlib/dev-daxlib-filtering)
 2. In the top right, click the **Notifications** bell icon and select **Watching**
 3. This way, you can configure your notification for new releases and other activities
