@@ -20,8 +20,8 @@ function 'DaxLib.Filtering.FirstDateWithTransactions' = ```
         )
     RETURN TREATAS ( { FirstDateWithData }, dateColumn )
     ```
-    annotation DAXLIB_PackageId = DaxLib.Filtering
-    annotation DAXLIB_PackageVersion = 0.1.2
+    annotation DAXLIB_PackageId = __PLACEHOLDER_PACKAGE_ID__
+    annotation DAXLIB_PackageVersion = __PLACEHOLDER_PACKAGE_VERSION__
 
 /// Return the value of the expression evaluated in the first date where there are transactions
 /// @param {expr} valueExpr - Expression to evaluate in the first transaction by dateTransaction
@@ -44,8 +44,8 @@ function 'DaxLib.Filtering.FirstValue' = ```
         DaxLib.Filtering.FirstDateWithTransactions ( dateColumn, dateTransaction )
     )
     ```
-    annotation DAXLIB_PackageId = DaxLib.Filtering
-    annotation DAXLIB_PackageVersion = 0.1.2
+    annotation DAXLIB_PackageId = __PLACEHOLDER_PACKAGE_ID__
+    annotation DAXLIB_PackageVersion = __PLACEHOLDER_PACKAGE_VERSION__
 
 /// Retrieve the last date in dateColumnn where there is a transaction in dateTransaction
 /// it can replace FIRSTNONBLANKVALUE when we can assume that the expression is not blank 
@@ -69,8 +69,8 @@ function 'DaxLib.Filtering.LastDateWithTransactions' = ```
         )
     RETURN TREATAS ( { LastDateWithData }, dateColumn )
     ```
-    annotation DAXLIB_PackageId = DaxLib.Filtering
-    annotation DAXLIB_PackageVersion = 0.1.2
+    annotation DAXLIB_PackageId = __PLACEHOLDER_PACKAGE_ID__
+    annotation DAXLIB_PackageVersion = __PLACEHOLDER_PACKAGE_VERSION__
     
 /// Return the value of the expression evaluated in the last date where there are transactions
 /// @param {expr} valueExpr - Expression to evaluate in the last transaction by dateTransaction
@@ -93,8 +93,8 @@ function 'DaxLib.Filtering.LastValue' = ```
         DaxLib.Filtering.LastDateWithTransactions ( dateColumn, dateTransaction )
     )
     ```
-    annotation DAXLIB_PackageId = DaxLib.Filtering
-    annotation DAXLIB_PackageVersion = 0.1.2
+    annotation DAXLIB_PackageId = __PLACEHOLDER_PACKAGE_ID__
+    annotation DAXLIB_PackageVersion = __PLACEHOLDER_PACKAGE_VERSION__
 
 
 /// Search a value in a lookupDate that has min/max columns and a target column containing the value to return
@@ -129,5 +129,5 @@ function 'DaxLib.Filtering.RangeLookup' = ```
             "@Result", targetColumn
         )
         ```
-    annotation DAXLIB_PackageId = DaxLib.Filtering
-    annotation DAXLIB_PackageVersion = 0.1.2
+    annotation DAXLIB_PackageId = __PLACEHOLDER_PACKAGE_ID__
+    annotation DAXLIB_PackageVersion = __PLACEHOLDER_PACKAGE_VERSION__
